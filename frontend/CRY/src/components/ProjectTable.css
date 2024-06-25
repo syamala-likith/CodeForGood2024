@@ -1,0 +1,41 @@
+/* src/ProjectTable.css */
+.project-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 1em;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  .project-table th, .project-table td {
+    padding: 12px 15px;
+  }
+  
+  .project-table th {
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  .project-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .project-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .project-table button {
+    background-color: #ffcc00;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #333;
+    border-radius: 5px;
+  }
+  
+  .project-table button:hover {
+    background-color: #e6b800;
+  }
+  
